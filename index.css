@@ -1,0 +1,121 @@
+body {
+    background: rgba(0, 0, 0, 0.671);
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    text-align: center;
+    color: rgb(255, 255, 153);
+  }
+  
+  .win {
+    color: white;
+    background-color: green;
+  }
+  
+  .loss {
+    color: white;
+    background-color: red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(104, 244, 153);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(9, 251, 94);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+  }
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(255, 255, 153);
+      font-weight: bold;
+      font-family: "Courier New", Courier, monospace
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid rgb(104, 244, 153);
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 58px;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 18pt;
+      width: 200px;
+      display: float;
+  }
+  
+  /* Buttons */
+  .button {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #666;
+    background-color: rgb(104, 244, 153);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: rgba(104, 104, 255, 0.429);
+    color: white;
+}
+  
+  .button:active {
+    background-color: rgba(104, 104, 255, 0.168);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  #gallows{
+    display: flex;
+    float: right;
+    padding-left: 200px;
+  }
+  #heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: rgb(104, 244, 153);
+  }
+  h3 {
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 0, 0, 0.686);
+  }
